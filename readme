@@ -1,0 +1,19 @@
+# **OpenAI GPT Path Detection**
+
+This project leverages OpenAI's GPT model to perform path detection and evaluate model performance using metrics such as Accuracy, AUROC, and F1-Score.
+
+#  Set Up Environment Variables
+Create a .env file in the project directory and add your OpenAI API key:
+```
+OPENAI_API_KEY=your_openai_api_key
+```
+Install Dependencies
+Install the required dependencies using the following command:
+```
+pip install -r requirements.txt
+```
+#  Run the Script
+To run the path detection script, use the following command:
+```
+python api.py
+```
